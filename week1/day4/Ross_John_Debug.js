@@ -1,4 +1,4 @@
-function greeting(){
+function greeting() {
   return "Hello World";
 }
 var word = greeting();
