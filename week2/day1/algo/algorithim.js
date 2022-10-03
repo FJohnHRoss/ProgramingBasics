@@ -22,32 +22,38 @@
 // between 5 and 17, and excludes the value of 9.
 
 
-// for (var i = 2020; i > 0; i -= 4) {
-//     console.log(i)
-// }
+for (var t = 20; t > 0; t -= 4) {
+    console.log(t)
+}
 
-// var i = 2020
-// while (i > 0) {
-// console.log(i)
-//   i -= 4
-// } 
+console.log("-----------------------------------")
 
-// function flexCount (lowNum, highNum, mult) {
+var y = 20
+while (y > 0) {
+console.log(y)
+  y -= 4
+} 
 
-//   for (var i = highNum; i > lowNum; i--) {
-//     if (i % mult == 0) {
-//       console.log(i)
-//     }
-//   }
-// }
-//   flexCount(2, 9, 3)
+console.log("-----------------------------------")
 
-// function sensei(mult, lowNum, highNum, excNum) {
-//   for (var i = lowNum; i < highNum; i++) {
-//     if (i != excNum && i % mult == 0) {
-//       console.log(i)
-//     }
-//   }
-// }
+function flexCount (lowNum, highNum, mult) {
 
-// sensei(3, 5, 17, 9)
+  for (var u = highNum; u > lowNum; u--) {
+    if (u % mult == 0) {
+      console.log(u)
+    }
+  }
+}
+  flexCount(2, 9, 3)
+
+  console.log("-----------------------------------")
+
+function sensei(mult, lowNum, highNum, excNum) {
+  for (var i = lowNum; i < highNum; i++) {
+    if (i != excNum && i % mult == 0) {
+      console.log(i)
+    }
+  }
+}
+
+sensei(3, 5, 17, 9)
