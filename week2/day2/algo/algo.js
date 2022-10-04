@@ -35,8 +35,6 @@
 // That's odd!
 // That's odd!
 
-
-
 var evens = 0
 var odds = 0
 function evenOdds(arr) {
