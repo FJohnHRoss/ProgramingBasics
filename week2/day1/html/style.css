@@ -1,8 +1,10 @@
 * {
   font-family: 'Segoe UI', Tahoma, sans-serif;
   box-sizing: border-box;
-  color: lightgray;
-  background-color: black;
+  color: white;
+  background-color: #63666a;
+  margin: 0;
+
 }
 
 .heading {
@@ -30,9 +32,14 @@
 table {
   margin-left: auto;
   margin-right: auto;
-  border: 4px solid;
-  border-color: darkgray;
+  border: 1px solid;
+  border-color: white;
   border-collapse: collapse;
+}
+
+th,
+td {
+  background-color: black;
 }
 
 #kaneki {
@@ -50,12 +57,17 @@ table {
 }
 
 #textChange {
-  background-color: darkgray;
-  border-color: darkgray;
+  background-color: white;
+  border-color: white;
+  color: black;
 }
 
 #submitChange {
-  background-color: darkgray;
+  background-color: white;
   color: black;
-  border-color: darkgray;
+  border-color: white;
+}
+
+h1 {
+  background-color: black;
 }
