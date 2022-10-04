@@ -1,32 +1,14 @@
 * {
-  font-family: 'Segoe UI', Tahoma, sans-serif;
-  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, sans-serif;
   color: white;
   background-color: #63666a;
-  margin: 0;
-
+  margin: 0 auto;
 }
 
-.heading {
-  text-align: center;
-}
-
-.enjoy {
-  text-align: center;
-}
-
-#enjoyList {
+ul,
+td {
   text-align: center;
   list-style-type: none;
-}
-
-#listChange {
-  text-align: center;
-  list-style-type: none;
-}
-
-.main {
-  text-align: center;
 }
 
 table {
@@ -42,18 +24,18 @@ td {
   background-color: black;
 }
 
+.text-center {
+  text-align: center;
+}
+
 #kaneki {
   width: 400px;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #logo {
   width: 70px;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #textChange {
@@ -68,6 +50,4 @@ td {
   border-color: white;
 }
 
-h1 {
-  background-color: black;
-}
+
