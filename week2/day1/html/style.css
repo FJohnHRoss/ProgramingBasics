@@ -1,0 +1,90 @@
+* {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  box-sizing: border-box;
+  color: lightgray;
+  background-color: black;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+h3 {
+  text-align: center;
+}
+
+.enjoy {
+  text-align: center;
+}
+
+.link {
+  color: lightskyblue;
+}
+
+#container {
+  width: 970px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* sidebar */
+.sidebar {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  padding-right: 5%;
+}
+
+.logo {
+  width: 40px;
+  float: 0;
+}
+
+/* main content */
+.main {
+  border-left: 1px solid gray;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid lightblue;
+  text-align: center;
+}
+
+.animetable {
+  text-align: center;
+}
+
+thead {
+  border-bottom: 2px solid lightblue;
+}
+
+th,
+td {
+  padding: 5px 15px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+input {
+  background-color: lightgray;
+  color: black;
+  border-color: lightgray;
+}
+
+.header {
+  text-align: center;
+}
+
+.with-css:after {
+  content: "But with just a little CSS, we can transform the way all the content appears!";
+}
