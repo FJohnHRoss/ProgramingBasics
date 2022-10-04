@@ -10,20 +10,22 @@
 </head>
 
 <body>
-  <h1>About John Ross</h1>
-  <div class="main">
-    <p class="p1">Hello my name is John Ross, and welcome to my website.
+  <div class="heading">
+    <h1>About John Ross</h1>
+    <p>Hello my name is John Ross, and welcome to my website.
     </p> <br>
-    <div class="enjoy">
+
+
     <h3>Things I enjoy</h3>
-    <ul>
-      <li>Anime</li>
-      <li>Math</li>
-      <li>Dogs</li>
-      <li>Video Games</li>
-      <li>Computers</li>
-    </ul>
-    </div>
+  </div>
+  <ul id="enjoyList">
+    <li>Anime</li>
+    <li>Math</li>
+    <li>Dogs</li>
+    <li>Video Games</li>
+    <li>Computers</li>
+  </ul>
+  <div class="main">
     <h3>About Myself</h3>
     <p>I played football for all of my childhood to highschool.
       But my sophmore year I tore my acl and had a rough recovery.
@@ -34,24 +36,23 @@
       pushed me to become what I want to do today. Currently I have been playing
       WoW more commonly known as World of Warcraft. I have been playing for about a year.
     </p>
-  
-  
     <h3>Anime</h3>
-    <img src="keneki.png" alt="Ken Kaneki" width="500" height="300">
+    <img id="kaneki" src="keneki.png" alt="Ken Kaneki">
     <p>I never thought I would have like anime when I first started to watch it.
       But pretty much as soon as I started watching Death Note I fell in nose deep.
       I read a manga called Tokyo Ghoul and it took me away. The story was like none
-      I have read or watched before. I also related to the main character 
-      <a class="link" href="https://tokyoghoul.fandom.com/wiki/Ken_Kaneki">Kaneki</a>
+      I have read or watched before. I also related to the main character
+      <a href="https://tokyoghoul.fandom.com/wiki/Ken_Kaneki">Kaneki</a>
       not to as extreme as him. But with my acl story the same sense of thing happened
       inside of the story. Although if you plan on watching Tokyo Ghoul, I would HIGHLY
       recomend reading the manga because the company that produced Tokyo Ghouls anime
       went off script quite a bit and it wasn't a good adaptation.
     </p>
-  
-  <div>
-    <table class="animeTable">
-
+    <table> <!--  if i have multiple tables how can 
+    I customize each within the page differently. ive tried ids and classes
+    none seem to work and I havent seen others online use classes or ids to 
+    use css with.
+    -->
       <tr>
         <th>Anime</th>
         <th>Manga</th>
@@ -74,24 +75,20 @@
       </tr>
     </table>
     <p>That's just some of my suggestions to read or watch.</p>
-  </div>
-  <div class="header">
-  </div>
-  <hr>
-    <ul>
-      <h2>Contact Me </h2>
-      <img class="logo" src="keneki.png" alt="">
+    <hr>
+
+    <h2>Contact Me </h2>
+    <img id="logo" src="keneki.png" alt="kaneki photo">
+    <ul id="listChange">
       <li>rossjohn936@gmail.com</li>
       <li>(702) 994-5399</li>
     </ul>
-    <div class="form">
     <form
       action="https://mail.google.com/mail/u/0/?#inbox?compose=CllgCJvnHwDBTjlmcqdBBNCVQdxcRBtTxhrWXxngbCJLVTxKvlwWZNWJzZwDVwkjRfjJghdWsnq">
       <label for="">Write me: </label>
-      <input type="text" name="" id="">
-      <input type="submit">
+      <input id="textChange" type="text" name="" id="">
+      <input id="submitChange" type="submit">
     </form>
-    </div>
   </div>
 </body>
 
