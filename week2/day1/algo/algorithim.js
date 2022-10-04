@@ -23,20 +23,20 @@
 
 
 for (var t = 20; t > 0; t -= 4) {
-    console.log(t)
+  console.log(t)
 }
 
 console.log("-----------------------------------")
 
 var y = 20
 while (y > 0) {
-console.log(y)
+  console.log(y)
   y -= 4
-} 
+}
 
 console.log("-----------------------------------")
 
-function flexCount (lowNum, highNum, mult) {
+function flexCount(lowNum, highNum, mult) {
 
   for (var u = highNum; u > lowNum; u--) {
     if (u % mult == 0) {
@@ -44,9 +44,9 @@ function flexCount (lowNum, highNum, mult) {
     }
   }
 }
-  flexCount(2, 9, 3)
+flexCount(2, 9, 3)
 
-  console.log("-----------------------------------")
+console.log("-----------------------------------")
 
 function sensei(mult, lowNum, highNum, excNum) {
   for (var i = lowNum; i < highNum; i++) {

@@ -4,8 +4,8 @@ var Height = 45;
 var Age = 11;
 
 if (Height > minHeight && Age > minAge) {
-	console.log("Get on that ride, kiddo!");
-} 
+  console.log("Get on that ride, kiddo!");
+}
 else {
-	console.log("Sorry kiddo. Maybe next year.");
+  console.log("Sorry kiddo. Maybe next year.");
 }

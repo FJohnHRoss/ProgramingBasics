@@ -42,7 +42,7 @@ function evenOdds(arr) {
     if (arr[i] % 2 == 0) {
       evens++
       odds = 0
-      if(evens == 3) {
+      if (evens == 3) {
         console.log("even more so!")
       }
     }
@@ -50,11 +50,11 @@ function evenOdds(arr) {
       odds++
       evens = 0
       if (odds == 3) {
-        console.log("that's odd") 
+        console.log("that's odd")
         odds = 0
       }
     }
   }
 }
-var test = [1,3,5,2,4,6]
+var test = [1, 3, 5, 2, 4, 6]
 evenOdds(test)

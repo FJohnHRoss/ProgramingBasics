@@ -5,7 +5,7 @@ function shuffle(arr) {
   var currentIndex = arr.length, randomIndex; // setting currentIndex to arr.length and randomIndex
   while (currentIndex != 0) { // if current index is not equal to 0 the following code will run
     randomIndex = Math.floor(Math.random() * currentIndex); // dont know exactly whats happening here
-    currentIndex--; 
+    currentIndex--;
     [arr[currentIndex], arr[randomIndex]] = [arr[randomIndex], arr[currentIndex]]; // dont know exactly whats happening here
   }
 }
