@@ -46,7 +46,7 @@ function evenOdds(arr) {
         console.log("even more so!")
       }
     }
-    else if (arr[i] % 2) {
+    else {
       odds++
       evens = 0
       if (odds == 3) {
