@@ -56,5 +56,5 @@ function evenOdds(arr) {
     }
   }
 }
-var test = [1, 3, 5, 2, 4, 6]
+var test = [1,1,1,3,3,3]
 evenOdds(test)
