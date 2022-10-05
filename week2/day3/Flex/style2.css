@@ -1,9 +1,9 @@
 * {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .outer-box {
-  background-color: #6495ED;
+  background-color: #6495ed;
   height: 150px;
   display: flex;
   justify-content: space-evenly;
@@ -19,7 +19,6 @@ ul {
   list-style: none;
   justify-content: space-between;
   width: 50%;
-  
 }
 
 a {
