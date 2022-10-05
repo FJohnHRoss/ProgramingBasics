@@ -17,13 +17,6 @@ th {
   background-color: #63666a;
 }
 
-.imgSettings {
-  width: 400px;
-  height: auto;
-}
-
-/*   ============= CLASS ==============  */
-
 table {
   margin-left: auto;
   margin-right: auto;
@@ -36,6 +29,12 @@ table {
   height: 30px;
 }
 
+ul {
+  list-style: none;
+}
+
+/*   ============= CLASS ==============  */
+
 .text-center {
   text-align: center;
 }
@@ -44,14 +43,12 @@ table {
   padding: 30px;
 }
 
-.myUL {
-  text-align: center;
-  list-style: none;
+.imgSettings {
+  width: 400px;
 }
 
 .logo {
   width: 70px;
-  height: auto;
 }
 
 .submitChange {

@@ -54,7 +54,7 @@
 //   }
 //   console.log(max)
 // }
-// printMaxOfArray([5, 1, 1000, 2])
+// printMaxOfArray([-1,-2,-7,-1])
 
 // 6
 
