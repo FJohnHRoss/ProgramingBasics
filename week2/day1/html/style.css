@@ -3,29 +3,27 @@
   color: white;
   background-color: #63666a;
   margin: 0 auto;
+  padding: 0px;
 }
 
-ul,
-td {
-  text-align: center;
-  list-style-type: none;
+p {
+  width: 600px;
 }
 
 table {
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid;
+  border: 3px solid;
   border-color: white;
   border-collapse: collapse;
-}
-
-th,
-td {
-  background-color: black;
-}
-
-.text-center {
+  width: 500px;
   text-align: center;
+  background-color: black;
+  height: 30px;
+}
+
+td, th {
+  background-color: black;
 }
 
 #kaneki {
@@ -38,16 +36,37 @@ td {
   height: auto;
 }
 
-#textChange {
-  background-color: white;
-  border-color: white;
-  color: black;
-}
-
 #submitChange {
   background-color: white;
   color: black;
   border-color: white;
 }
 
+#textChange {
+  background-color: white;
+  border-color: white;
+  color: black;
+}
 
+.text-center {
+  text-align: center;
+}
+
+.headPad {
+  padding: 30px;
+}
+
+.myUL {
+  display: inline-block;
+  text-align: center;
+}
+
+.myBox {
+  border: 1px solid;
+  border-color: white;
+}
+
+.contact {
+  text-align: center;
+  padding-bottom: 40px;
+}
