@@ -1,17 +1,18 @@
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
 }
 
 .outer-box {
   background-color: #6495ed;
   height: 150px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
 img {
-  width: 50px;
+  width: 100px;
 }
 
 ul {
@@ -23,12 +24,4 @@ ul {
 
 a {
   text-decoration: none;
-}
-
-a {
-  color: white;
-}
-
-h1 {
-  color: white;
 }
