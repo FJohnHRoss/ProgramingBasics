@@ -27,7 +27,7 @@
 //   var i = 0
 //   while(i <= 255) {
 //     console.log(i)
-//     sum = sum + i;
+//     sum =+ i;
 //     console.log(sum)
 //     i++
 //   }
