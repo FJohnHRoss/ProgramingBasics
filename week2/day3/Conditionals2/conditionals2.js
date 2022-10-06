@@ -1,7 +1,7 @@
 // =================== ORIGINAL ATTEMPT =========================
 
 // function finishHomework(time, ampm) {
-//   if (ampm = 1) {
+//   if (ampm == "am") {
 //     if (time < 10) {
 //       console.log("latte")
 //     }
@@ -37,7 +37,7 @@ function amOrPm(ampm, time, day) {
 
 //  ================= AM FUNCTION ===================
 
-function finishHomeworkAm(ampm, time, day) {
+function finishHomeworkAm(time) {
   if (time < 10) {
     console.log("latte")
   } else {
@@ -48,15 +48,15 @@ function finishHomeworkAm(ampm, time, day) {
 
 //  ==================== PM FUNCTION ================
 
-function finishHomeworkPm(ampm, time, day) {
+function finishHomeworkPm(time, day) {
   if (time < 4) {
     console.log("hot chocolate")
   }
   if (time > 3 && time < 6) {
     if (time % 2 == 0) {
-      evenHour(ampm, time, day);
+      randomizeArray(["hot chocolate", "tea", "cake"]);
     } else {
-      oddHour(ampm, time, day);
+      randomizeArray(["ice cream", "cookies", "hot chocolate"]);
     }
   }
   else if (time >= 4 && time < 10) {
@@ -70,20 +70,10 @@ function finishHomeworkPm(ampm, time, day) {
   }
 }
 
-// ================= EVEN HOUR =====================
+// ================= RANDOMIZE ARRAY =====================
 
-function evenHour(ampm, time, day) {
-  var arrEven = ["ice cream", "cookies", "hot chocolate"]
-  var randomItem = arrEven[Math.floor(Math.random()*arrEven.length)];
-  console.log(randomItem)
-}
-
-
-//   ================= ODD HOUR ===================
-
-function oddHour(ampm, time, day) {
-  var arrOdd = ["hot chocolate", "tea", "cake"]
-  var randomItem = arrOdd[Math.floor(Math.random()*arrOdd.length)];
+function randomizeArray(arr) {
+  var randomItem = arr[Math.floor(Math.random()*arr.length)];
   console.log(randomItem)
 }
 
