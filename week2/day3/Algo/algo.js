@@ -22,17 +22,17 @@
 
 // 3
 
-// function printIntsAndSum0To255() {
-//   var sum = 0
-//   var i = 0
-//   while(i <= 255) {
-//     console.log(i)
-//     sum =+ i;
-//     console.log(sum)
-//     i++
-//   }
-// }
-// printIntsAndSum0To255()
+function printIntsAndSum0To255() {
+  var sum = 0
+  var i = 0
+  while(i <= 255) {
+    console.log(i)
+    sum =+ i;
+    console.log(sum)
+    i++
+  }
+}
+printIntsAndSum0To255()
 
 // 4
 
