@@ -26,7 +26,7 @@ var sum = 0
 function PrintIntsAndSum0To255() {
   for (var i = 0; i < 256; i++) {
     console.log(i)
-    sum =+ i;
+    sum += i;
     console.log(sum)
   }
 }
@@ -60,7 +60,7 @@ function PrintAverageOfArray(arr) {
   for (var i = 0; i < arr.length; i++) {
     avg = avg + arr[i]
   }
-  console.log(avg/arr.length)
+  console.log(avg / arr.length)
 }
 PrintAverageOfArray([1,2,3,4])
 
