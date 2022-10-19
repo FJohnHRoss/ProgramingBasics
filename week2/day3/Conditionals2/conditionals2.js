@@ -28,9 +28,9 @@
 
 function amOrPm(ampm, time, day) {
   if (ampm == "am") {
-    finishHomeworkAm(ampm, time, day);
+    finishHomeworkAm(time, day);
   } else {
-    finishHomeworkPm(ampm, time, day);
+    finishHomeworkPm(time, day);
   }
 }
 
